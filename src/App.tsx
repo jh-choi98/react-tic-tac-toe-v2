@@ -245,3 +245,8 @@ function App() {
 }
 
 export default App;
+
+/*
+자식 컴포넌트에 콜백 함수를 props로 전달할 때, 부모 컴포넌트에서 생성된 함수가 불필요하게
+다시 생성되지 않도록 useCallback 훅을 사용하는게 좋음
+*/
